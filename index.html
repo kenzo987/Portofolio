@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muhammad Fachrel Naqvie Ardiansyah — Web Dev</title>
+<meta name="description" content="Portfolio Muhammad Fachrel Naqvie Ardiansyah: front-end developer dan UI/UX designer.">
+<meta property="og:title" content="Muhammad Fachrel Naqvie Ardiansyah — Portfolio">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 5v14M6 13l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M5 15V6a2 2 0 0 1 2-2h8" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
+
+<a class="skip" href="#home">Lewati ke konten</a>
+
+<header class="nav" id="nav">
+  <a class="logo" href="#home" aria-label="Beranda"><span class="mono">FN</span> <span class="logo-name">Muhammad Fachrel Naqvie Ardiansyah</span></a>
+  <nav id="menu" aria-label="Navigasi utama">
+    <a href="#home">Home</a><a href="#about">About Me</a><a href="#resume">Resume</a><a href="#portfolio">Portfolio</a><a href="#contact">Contact</a>
+  </nav>
+  <button class="icon-btn menu-btn" id="menuBtn" aria-label="Buka menu" aria-expanded="false" aria-controls="menu"><svg><use href="#i-menu"/></svg></button>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="orb o1"></div><div class="orb o2"></div>
+  <p class="status"><span class="dot"></span> Available for Projects</p>
+  <h1 class="big" aria-label="[NAMA LENGKAP]">
+    <span class="line l1">Muhammad Fachrel</span>
+    <span class="line l2">Naqvie Ardiansyah</span>
+  </h1>
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <p class="role">Informatics Student &mdash; Aspiring Front-End Developer &amp; Creative Design</p>
+      <p class="tagline">Turning Ideas into Digital Experiences.</p>
+      <p class="lead">I'm an Informatics student passionate about building modern websites, crafting intuitive user experiences, and creating impactful visual designs. I combine technology and creativity to turn ideas into meaningful digital solutions.</p>
+      <div class="cta">
+        <a class="btn primary" href="#portfolio">Explore My Work <svg><use href="#i-arrow"/></svg></a>
+        <a class="btn ghost" id="cvBtn" href="assets/cv.pdf" download>Download CV <svg><use href="#i-down"/></svg></a>
+      </div>
+    </div>
+    <figure class="photo" id="photo">
+      <img src="assets/profile.jpg" alt="Foto profil [NAMA LENGKAP]" width="480" height="600" onerror="this.style.display='none'">
+      <figcaption class="ph">[FOTO PROFIL]<br><small>assets/profile.jpg</small></figcaption>
+      <span class="chip c1">HTML · CSS · JS</span>
+      <span class="chip c2">UI/UX</span>
+      <span class="chip c3">Mahasiswa IT</span>
+    </figure>
+  </div>
+  <a class="scroll" href="#about" aria-label="Scroll ke About"><svg><use href="#i-down"/></svg></a>
+</section>
+
+<section id="about" class="sec">
+  <div class="sec-head reveal"><h2>Cara saya berpikir, bukan sekadar apa yang saya buat.</h2></div>
+  <div class="about-grid">
+    <article class="card bio reveal">
+      <h3>Biografi</h3>
+      <p>Saya adalah mahasiswa Teknik Informatika yang memiliki ketertarikan pada graphic design dan kreativitas visual. Saya senang mengeksplorasi warna, tipografi, dan komposisi untuk menciptakan desain yang modern, menarik, dan komunikatif.
+
+      Bagi saya, desain bukan sekadar visual, tetapi cara menyampaikan ide dan menciptakan kesan.</p>
+      <h3>Perjalanan</h3>
+      <p>Berawal dari ketertarikan pada dunia visual, saya terus belajar melalui eksplorasi desain, editing, dan berbagai proyek kreatif untuk mengembangkan gaya serta kemampuan saya.</p>
+    </article>
+    <article class="card reveal">
+      <h3>Prinsip kerja</h3>
+      <ul class="plain">
+        <li>Visual with Purpose</li><li>Details Matter</li><li>Always Improving</li>
+      </ul>
+    </article>
+    <article class="card reveal info">
+      <h3>Info personal</h3>
+      <dl><dt>Nama</dt><dd>Muhammad Fachrel Naqvie Ardiansyah</dd><dt>Studi</dt><dd>Informatics Enginering Student</dd><dt>Lokasi</dt><dd>Pati, Jawa Tengah</dd><dt>Minat</dt><dd>Graphic Design, Visual Branding, Social Media Design</dd></dl>
+    </article>
+    <div class="stats reveal">
+      <div><b data-count="1">0</b><span>Tahun belajar</span></div>
+      <div><b data-count="5">0</b><span>Proyek</span></div>
+      <div><b data-count="3">0</b><span>Teknologi</span></div>
+    </div>
+    <article class="card skills reveal">
+      <h3>Area keahlian <small>(ubah level di atribut data-level)</small></h3>
+      <div class="bar"><span>Front-End Development</span><i data-level="40"></i></div>
+      <div class="bar"><span>UI/UX Design</span><i data-level="55"></i></div>
+      <div class="bar"><span>Graphic Design</span><i data-level="80"></i></div>
+      <div class="bar"><span>Creative Editing</span><i data-level="80"></i></div>
+    </article>
+  </div>
+</section>
+
+<section id="resume" class="sec">
+  <div class="sec-head reveal"><h2>Resume</h2>
+    <a class="btn ghost" href="assets/cv.pdf" download>Download CV (PDF) <svg><use href="#i-down"/></svg></a></div>
+  <div class="tabs reveal" role="tablist">
+    <button role="tab" aria-selected="true" data-tab="exp">Experience</button>
+    <button role="tab" aria-selected="false" data-tab="edu">Education</button>
+    <button role="tab" aria-selected="false" data-tab="skill">Skills</button>
+    <button role="tab" aria-selected="false" data-tab="cert">Certifications</button>
+  </div>
+  <div class="panel" id="p-exp">
+    <ol class="timeline">
+      <li><time>2023 - 2024</time><h3>Divisi Kreatif / Creative Team · HSSU</h3><p>Melakukan peliputan foto dan video untuk kegiatan mingguan, bulanan, class meeting, LDK, hingga acara perpisahan.</p></li>
+      <!-- <li><time>[PERIODE]</time><h3>[POSISI] · [ORGANISASI]</h3><p>[Freelance / organisasi / proyek relevan.]</p></li> -->
+    </ol>
+  </div>
+  <div class="panel" id="p-edu" hidden>
+    <ol class="timeline"><li><time>2025</time><h3>Universitas Safin Pati</h3><p>Teknik Informatika</p></li></ol>  
+  </div>
+  <div class="panel" id="p-skill" hidden>
+    <div class="chips-wrap">
+      <div><h3>Programming &amp; Front-End</h3><div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Web Developer</span></div></div>
+      <div><h3>UI/UX &amp; Graphic</h3><div class="chips"><span>Adobe Photoshop</span><span>Poster & Visual Design</span></div></div>
+      <div><h3>Video &amp; Produktivitas</h3><div class="chips"><span>Adobe Premiere Pro</span><span>Story Telling & Pacing</span></div></div>
+      <div><h3>Soft skills</h3><div class="chips"><span>Creative thinking</span><span>Problem solving</span><span>Communication</span><span>Teamwork</span><span>Adaptability</span></div></div>
+    </div>
+  </div>
+  <!-- <div class="panel" id="p-cert" hidden>
+    <ol class="timeline"><li><time>[TAHUN]</time><h3>[NAMA SERTIFIKAT / PENGHARGAAN]</h3><p>[Penyelenggara dan keterangan singkat.]</p></li></ol>
+  </div> -->
+</section>
+
+<section id="portfolio" class="sec">
+  <div class="sec-head reveal"><h2>Selected works</h2></div>
+  <div class="filters reveal" id="filters" role="group" aria-label="Filter proyek">
+    <button class="on" data-f="all">All</button><button data-f="web">Web Development</button><button data-f="uiux">UI/UX Design</button><button data-f="graphic">Graphic Design</button><button data-f="other">Other</button>
+  </div>
+  <div class="grid" id="grid"></div>
+  <p class="empty" id="empty" hidden>Belum ada proyek di kategori ini.</p>
+</section>
+
+<section id="contact" class="sec">
+  <div class="contact-grid">
+    <div class="reveal">
+      <h2>Punya ide? Mari kita bangun bersama.</h2>
+      <p class="lead">Terbuka untuk proyek freelance, magang, dan kolaborasi. Biasanya saya membalas dalam 1-2 jam.</p>
+      <p class="status"><span class="dot"></span> Available for Projects</p>
+      <div class="links">
+        <button class="btn ghost" id="copyBtn" type="button"><span id="emailTxt">[EMAIL]</span> <svg><use href="#i-copy"/></svg></button>
+        <a class="btn ghost" id="waBtn" href="#" target="_blank" rel="noopener">WhatsApp <svg><use href="#i-arrow"/></svg></a>
+        <a class="btn ghost" id="ghBtn" href="#" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn ghost" id="liBtn" href="#" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+    <form class="card reveal" id="form" novalidate>
+      <label>Nama<input name="name" required autocomplete="name"><em></em></label>
+      <label>Email<input name="email" type="email" required autocomplete="email"><em></em></label>
+      <label>Subjek<input name="subject" required><em></em></label>
+      <label>Pesan<textarea name="message" rows="4" required></textarea><em></em></label>
+      <button class="btn primary" type="submit">Kirim lewat email <svg><use href="#i-arrow"/></svg></button>
+      <p class="note" id="formMsg" role="status"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div><a class="logo" href="#home"><span class="mono">FN</span> MUHAMMAD FACHREL NAQVIE ARDIANSYAH</a><p>Mengubah ide menjadi visual yang bermakna melalui desain kreatif, modern, dan fungsional.</p></div>
+  <nav aria-label="Footer"><a href="#about">About</a><a href="#resume">Resume</a><a href="#portfolio">Portfolio</a><a href="#contact">Contact</a></nav>
+  <p>&copy; <span id="year"></span> MUHAMMAD FACHREL NAQVIE ARDIANSYAH</p>
+  <button class="icon-btn" id="topBtn" aria-label="Kembali ke atas"><svg><use href="#i-up"/></svg></button>
+</footer>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mTitle" hidden>
+  <div class="modal-box">
+    <button class="icon-btn close" id="mClose" aria-label="Tutup"><svg><use href="#i-x"/></svg></button>
+    <div class="m-img" id="mImg"></div>
+    <p class="meta" id="mMeta"></p>
+    <h3 id="mTitle"></h3>
+    <p id="mDesc"></p>
+    <dl id="mCase"></dl>
+    <div class="cta" id="mLinks"></div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
